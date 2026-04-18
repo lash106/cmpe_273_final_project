@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Engram is a synchronization and governance layer for AI agents. It functions like a "smart database" that prevents agents from overwriting each other's work, maintains a perfect audit trail, and controls who can change what.
 
 1. The Core Problem: The "Silent Erase"
@@ -54,3 +55,14 @@ Intelligence: Build the CRDT (conflict resolution) and the Middleware (the brain
 Interface: Connect the FastAPI and build the Real-time Dashboard to visualize agent conflicts as they happen.
 
 Think of Engram as "Google Docs for AI Agents." It ensures that even if 100 agents are working on the same "document" (memory), no one’s work is accidentally deleted and every edit is tracked.
+=======
+# cmpe_273_final_project
+cmpe_273_final_project
+
+ComponentTechnology 
+RecommendationLanguageGo (Golang) or Python (for high concurrency and memory safety).
+CommunicationgRPC with Protocol Buffers for structured, fast data exchange.
+Primary StateRedis with Redlock for distributed locking when strictly necessary.
+CoordinationEtcd or Consul to manage agent roles and configuration.
+ObservabilityOpenTelemetry to track how memory flows between agents.
+>>>>>>> ad5ac1dafcda3d430eb3d5d6ddcb8a26481d808b
